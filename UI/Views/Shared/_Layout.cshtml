@@ -1,0 +1,47 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LawSuit Complaint</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+    <link rel="stylesheet" href="">
+    <!-------------------------Font Awesome Icons --------------->
+    <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+    <!----------x---------------Font Awesome Icons --------x------->
+    <!----------x---------------Google font --------x------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+    <!----------x---------------Google font --------x----------------->
+    <link href="~/css/homestyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    @RenderBody()
+
+
+</body>
+
+</html>
+<script>
+    const bar = document.getElementById('bar')
+    const close = document.getElementById('close')
+    const nav = document.getElementById('navbar')
+
+    if (bar) {
+        bar.addEventListener('click', () => {
+            nav.classList.add('active')
+        })
+
+        if (close) {
+            close.addEventListener('click', () => {
+                nav.classList.remove('active')
+            })
+        }
+    }
+</script>

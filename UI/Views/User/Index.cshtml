@@ -1,0 +1,89 @@
+﻿@using Domain_Layer.Models;
+@model User
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link href="~/css/mystyle.css" rel="stylesheet" />
+</head>
+<div ng-app="MyApp" ng-controller="Cont">
+    
+    <section id="header">
+        <a href="#"><img src=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="@Url.Action("Dashboard","Admin")">Home</a></li>
+                <li><a href="@Url.Action("Products","Admin")" class="active">Products</a></li>
+                <li><a href="@Url.Action("ProductsType","Admin")">ProductsType</a></li>
+                <li><a href="@Url.Action("Users","Admin")">Users</a></li>
+                <li><a href="@Url.Action("Orders","Admin")">Orders</a></li>
+              
+                <li><a href="#" id="close"><i class="fa fa-Close"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+
+            <i id="bar" class="fa fa-outdent"></i>
+        </div>
+    </section>
+    <section id="form-details" class="section-p1">
+
+        <form action="">
+            <br />
+
+            <h2>Create New Complaint</h2>
+            Your Information<input type="text" placeholder="@Model.Name" disabled>
+            <input type="text" placeholder="@Model.Email" disabled>
+            Add Your Personal Id:<input type="file" accept=".Pdf" placeholder="Add Your File">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Describe your Complaint here..."></textarea>
+            <button class="btn normal">Submit</button>
+        </form>
+
+
+    </section>
+    <section id="cart" class="section-p1">
+        <br /><br>
+
+      
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Complaint No</td>
+                    <td>PersonalId</td>
+                    <td>Complaint Text</td>
+                    <td>Update</td>
+
+                </tr>
+            </thead>
+            <tbody ng-repeat="X in data">
+                <tr>
+                    <td><a href="#"<i class="far fa-times-circle"></i></a></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td><img src="https://i.postimg.cc/kg9YYbTn/f1.jpg" alt=""></td>
+                    <td></td>
+                    <td><a href="@Url.Action("Index","User",new{ id =1})">Update</a></td>
+                </tr>
+            </tbody>
+
+        
+
+        </table>
+    </section>
+</div>
+<p></p>
+
+<script>
+    var app = angular.module("MyApp",[]);
+    app.controller("Cont", function ($scope, $http, $interval) {
+        var url = "https://localhost:7249/api/Complaint/GetMyCom";
+            $http.get(url).then(function (response) {
+            $scope.data = response.data;
+            });
+
+        $http.get(url).then(function (response) {
+            $scope.data = response.data;
+        });
+    }); 
+    
+
+</script>
+

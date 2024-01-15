@@ -1,0 +1,17 @@
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Service Layer.deps.json
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Service Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Service Layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Domain Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Repository layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Repository layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\bin\Debug\net6.0\Domain Layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.csproj.AssemblyReference.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfoInputs.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.AssemblyInfo.cs
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CoreCompileInputs.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.csproj.CopyComplete
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\refint\Service Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\Service Layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Service Layer\obj\Debug\net6.0\ref\Service Layer.dll

@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "";
+}
+<head>
+    <style>
+        .Cont {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .LoginBox {
+            width: 50%;
+            height: 60%;
+            background-color: lightgray;
+            box-shadow: 12px 12px 10px 0 lightblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            font-family: 'Californian FB';
+            border-radius: 50px;
+        }
+
+            .LoginBox p {
+                font-size: 25px;
+            }
+
+        .Login-UserName input {
+            width: 80%;
+            border-radius: 50px;
+            box-shadow: 0px 0px 12px 20px lightblue;
+        }
+
+            .Login-UserName input:hover {
+                box-shadow: 0px 0px 12px 20px lightgreen;
+            }
+
+        .Login-UserName {
+            width: 80%;
+        }
+
+        .Login-Header {
+            font-size: 25px;
+        }
+
+        button {
+            border-radius: 50px;
+            background-color: lightblue;
+        }
+
+            button:hover {
+                background-color: lightgreen;
+            }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<div ng-app="MyApp" ng-controller="Cont" class="Cont" style="">
+    <div class="LoginBox">
+
+        <div class="Login-Header">Login</div>
+        <div class="Login-UserName">
+            <p>UserName</p>
+            <input type="text" ng-model="ProductType.Name" />
+        </div>
+        <div class="Login-UserName">
+            <p>Password</p>
+            <input type="text" />
+        </div>
+        <button ng-click="Login()"><h5>Sign In</h5></button>
+    </div>
+</div>
+<script>
+    var app = angular.module("MyApp",[]);
+    app.controller("Cont", function ($scope, $http, $window) {
+        
+        $scope.ProductType = {
+            Name: '',
+        } 
+        $scope.Login = function () {
+        $http({
+            method: 'POST',
+            url: 'https://localhost:7249/api/User/Check',
+            data: $scope.ProductType,
+            headers: {
+                'Contant-Type': 'application/json'
+            }
+        }).then(function successCallback1(respone) {
+                var urll = 'https://localhost:7134/User/Index/'+respone.data;
+                $window.location.href = urll;
+        })
+
+    }
+    });
+</script>

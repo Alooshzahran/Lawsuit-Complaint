@@ -1,0 +1,14 @@
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\bin\Debug\net6.0\Domain Layer.deps.json
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\bin\Debug\net6.0\Domain Layer.runtimeconfig.json
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\bin\Debug\net6.0\Domain Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\bin\Debug\net6.0\Domain Layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.csproj.AssemblyReference.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.AssemblyInfoInputs.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.AssemblyInfo.cs
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.csproj.CoreCompileInputs.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\refint\Domain Layer.dll
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.pdb
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\Domain Layer.genruntimeconfig.cache
+D:\Lowsuit Complaint (Task on Onion architecture)\Domain Layer\obj\Debug\net6.0\ref\Domain Layer.dll
